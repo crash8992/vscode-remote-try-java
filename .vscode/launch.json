@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumaSeries2",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.SumaSeries2",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "SumatoriaSeries",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.SumatoriaSeries",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "SumatoriaSerie",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.SumatoriaSerie",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "SumaSucesion",
             "request": "launch",
             "mainClass": "com.mycompany.app.SumaSucesion",

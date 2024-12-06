@@ -14,7 +14,7 @@ public class SumaSucesion {
     }
 
     public static double calcularTermino(int n) {
-        // Función para calcular el valor del n-ésimo término
+        // definimos variables del término
         int numerador = 2;
         int denominador = 1;
         double termino = 0;
