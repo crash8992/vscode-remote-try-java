@@ -38,7 +38,7 @@ public class SumaSeries2 {
 
                 // Calcular los término en la sucesión
                 double termino;
-                if (i % 4 == 2 || i % 4 == 3) { // Patrón para términos con raíz cuadrada
+                if (i % 4 == 2 || i % 4 == 3) { // definir números con raíz cuadrada
                     termino = signo * Math.sqrt((double) contadorPrimos / i);
                 } else {
                     termino = signo * ((double) contadorPrimos / i);
@@ -51,7 +51,7 @@ public class SumaSeries2 {
                 signo *= -1;
             }
 
-            System.out.printf("La sumatoria de los primeros %d términos es: %.5f\n", n, suma);
+            System.out.printf("La suma de los primeros %d términos es: %.5f\n", n, suma);
         }
 
         scanner.close();
